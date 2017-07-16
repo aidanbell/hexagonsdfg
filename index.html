@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"> </script>
+</head>
+<body>
+<button onclick="hexagon(item)">Hexagon!</button>
+<p id="hexagon"></p>
+<div class="wrapper">
+  <div class="hexagon" id="a0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="a9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="b9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="c9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="d9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="e9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="f9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="g9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="h9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="i9" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j0" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j1" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j2" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j3" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j4" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j5" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j6" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j7" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j8" onclick="selected(this)" value=0></div> 
+  <div class="hexagon" id="j9" onclick="selected(this)" value=0></div> 
+</div>
+
+
+</body>
+</html>
